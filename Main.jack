@@ -1,0 +1,10 @@
+/*Classe principal da aplicação, que dá início a tudo*/
+class Main {
+    function void main() {
+        var SnakeGame game;
+        let game = SnakeGame.new();
+        do game.run();
+	    do game.dispose();
+        return;
+    }
+}
